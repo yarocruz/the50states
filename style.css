@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #4A4A4A;
+}
+
+h1 {
+  margin: 100px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-wrap {
+  margin: 0 auto;
+  padding: 0px 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-rows: repeat(10, 250px);
+  grid-auto-rows: 250px;
+  grid-gap: 20px;
+}
+
+.st-item {
+  background-color: #f9f9f9;
+  border: 1px solid rgba(74,74,74,0.11);
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 75px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.85em;
+  transition:
+}
+
+/* I Don't know why this works but it works */
+img {
+  position: absolute;
+  padding-bottom: 30px;
+}
